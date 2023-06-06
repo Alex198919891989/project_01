@@ -5,8 +5,13 @@ def large(a):
            max_ = i
     return max_ 
 
+list1 = []
+total_ = int(input(" Сколько элементов хочешь ввести? "))
 
-list1 = [-19,5,10,30]
+for i in range(total_):
+    n = int(input("Введите цифры"))
+    list1.append(n)
+print(list1)
 result = large(list1)
 print('max=',result)
 def name(b):
